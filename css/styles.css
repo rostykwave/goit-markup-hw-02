@@ -22,8 +22,11 @@ body {
   background-color: #fff;
 }
 
-button {
+.btn {
   font-family: inherit;
+  cursor: pointer;
+
+  border: none;
 }
 
 .list {
@@ -85,7 +88,12 @@ button {
 
 /* Hover-header*/
 .site-nav .link:hover,
-.contact-nav .link:hover {
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
   color: var(--accent-text-color);
 }
 
@@ -112,8 +120,6 @@ button {
   letter-spacing: 0.06em;
   color: var(--secondary-btn-text-color);
   background-color: var(--secondary-btn-bgc-color);
-
-  cursor: pointer;
 }
 
 /* Section */
@@ -143,10 +149,7 @@ button {
 }
 
 /* Чем мы занимаемся */
-.section {
-}
-.section-title {
-}
+
 /* Наша команда */
 .section.command {
   background-color: var(--section-secondary-color);
@@ -163,6 +166,42 @@ button {
 }
 .command-list .text {
   text-align: center;
+}
+
+/* Portfolio */
+
+.portfolio-filters {
+}
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+
+  color: var(--primary-btn-text-color);
+  background-color: var(--primary-btn-bgc-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--secondary-btn-text-color);
+  background-color: var(--secondary-btn-bgc-color);
+}
+
+.portfolio .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+}
+.portfolio .text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--primary-text-color);
 }
 
 /* Footer */
@@ -184,6 +223,7 @@ button {
   color: #ffffff;
 }
 
-.address .link:hover {
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-text-color);
 }
