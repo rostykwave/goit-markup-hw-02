@@ -1,0 +1,189 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196f3;
+
+  --primary-btn-text-color: #212121;
+  --primary-btn-bgc-color: #f5f4fa;
+  --secondary-btn-text-color: #ffffff;
+  --secondary-btn-bgc-color: #2196f3;
+
+  --section-secondary-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+  background-color: #fff;
+}
+
+button {
+  font-family: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Header */
+/* Logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: #000000;
+
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: #2196f3;
+}
+
+/* Site-Navigation */
+.site-nav .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+/* Contact-navigation */
+
+.contact-nav .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+/* Hover-header*/
+.site-nav .link:hover,
+.contact-nav .link:hover {
+  color: var(--accent-text-color);
+}
+
+/* Main */
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-btn-text-color);
+  background-color: var(--secondary-btn-bgc-color);
+
+  cursor: pointer;
+}
+
+/* Section */
+
+.section {
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+
+/* Особенности */
+
+.features-list {
+}
+
+.features-list .title {
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+.features-list .text {
+}
+
+/* Чем мы занимаемся */
+.section {
+}
+.section-title {
+}
+/* Наша команда */
+.section.command {
+  background-color: var(--section-secondary-color);
+}
+
+.command-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.command-list .title {
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+.command-list .text {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.footer-logo {
+  color: #ffffff;
+}
+
+.address {
+  font-style: normal;
+}
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .link.location-link {
+  color: #ffffff;
+}
+
+.address .link:hover {
+  color: var(--accent-text-color);
+}
