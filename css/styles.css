@@ -69,7 +69,7 @@ body {
 }
 
 /* Site-Navigation */
-.site-nav .link {
+.nav-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -79,20 +79,20 @@ body {
 
 /* Contact-navigation */
 
-.contact-nav .link {
+.contact-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 /* Hover-header*/
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-text-color);
 }
 
-.contact-nav .link:hover,
-.contact-nav .link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-text-color);
 }
 
