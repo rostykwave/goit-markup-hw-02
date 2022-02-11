@@ -173,9 +173,6 @@ body {
 
 /* Portfolio */
 
-.portfolio-filters {
-}
-
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
@@ -193,14 +190,14 @@ body {
   background-color: var(--secondary-btn-bgc-color);
 }
 
-.portfolio .title {
+.portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 
   color: var(--secondary-text-color);
 }
-.portfolio .text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.87;
 
@@ -215,18 +212,17 @@ body {
   color: #ffffff;
 }
 
-.address {
+.address-link {
   font-style: normal;
-}
-.address .link {
+
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address .link.location-link {
+.address-link.location {
   color: #ffffff;
 }
 
-.address .link:hover,
-.address .link:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--accent-text-color);
 }
