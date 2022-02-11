@@ -127,8 +127,6 @@ body {
 
 /* Section */
 
-.section {
-}
 .section-title {
   font-size: 36px;
   line-height: 1.167;
@@ -139,16 +137,11 @@ body {
 
 /* Особенности */
 
-.features-list {
-}
-
-.features-list .title {
+.features-title {
   line-height: 1.14;
   text-transform: uppercase;
 
   color: var(--secondary-text-color);
-}
-.features-list .text {
 }
 
 /* Чем мы занимаемся */
@@ -163,11 +156,11 @@ body {
   font-size: 16px;
   line-height: 1.19;
 }
-.command-list .title {
+.command-title {
   color: var(--secondary-text-color);
   text-align: center;
 }
-.command-list .text {
+.command-text {
   text-align: center;
 }
 
