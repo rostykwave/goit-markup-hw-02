@@ -1,126 +1,162 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web studio</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-   <!-- Header -->
-<header class="header">
-    <a href="./" class="logo" lang="en"><span class="logo-accent">Web</span>Studio</a>
-
-    <nav class="nav">
-        <ul class="site-nav list">
-            <li class="nav-item"><a href="./" class="nav-link link">Студия</a></li>
-            <li class="nav-item"><a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
-            <li class="nav-item"><a href="" class="nav-link link">Контакты</a></li>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Top Line -->
+    <header class="page-header">
+      <nav class="page-nav">
+        <a href="./index.html" class="page-logo link"
+          ><span class="page-logo-accent">Web</span>Studio</a
+        >
+        <ul class="menu list">
+          <li class="menu-item">
+            <a href="./index.html" class="menu-link-current menu-link link">Studio</a>
+          </li>
+          <li class="menu-item"><a href="./portfolio.html" class="menu-link link">Portfolio</a></li>
+          <li class="menu-item"><a href="" class="menu-link link">Contacts</a></li>
         </ul>
-    </nav>
-
-    <ul class="contact list">
-        <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a>
-        </li>
-        <li class="contact-item"><a href="tel:+380961111111" class="contact-link link">+38 096 111 11 11</a></li>
-    </ul>
-</header>
-
-
-   <!-- Main -->
-   <main>
-
-       <!-- Hero -->
-     <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-btn btn">Заказать услугу</button>
-     </section>
-
-     <!-- Особенности -->
-     <section class="features section">
-        <h2 class="section-title visually-hidden">Особенности</h2>
-        <ul class="features-list list">
-            <li class="features-item">
-                <h3 class="features-title">Внимание к деталям</h3>
-                <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-            </li>
-            <li class="features-item">
-                <h3 class="features-title">Пунктуальность</h3>
-                <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-            </li>
-            <li class="features-item">
-                <h3 class="features-title">Планирование</h3>
-                <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            </li>
-            <li class="features-item">
-                <h3 class="features-title">Современные технологии</h3>
-                <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-            </li>
+      </nav>
+      <address>
+        <ul class="contact list">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="address-link link">info@devstudio.com</a>
+          </li>
+          <li class="contact-item">
+            <a href="tel:+110001111111" class="address-link link">+11 (000) 111-11-11</a>
+          </li>
         </ul>
-     </section>
-
-     <!-- Чем мы занимаемся -->
-     <section class="services section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="services-list list">
-            <li class="services-item">
-                <img src="./images/services/box-1.jpg" alt="Написание кода" width="370" height="294" class="services-thumb">
-            </li>
-            <li class="services-item">
-                <img src="./images/services/box-2.jpg" alt="Разработка мобильной версии программы" width="370" height="294" class="services-thumb">
-            </li>
-            <li class="services-item">
-                <img src="./images/services/box-3.jpg" alt="Дизайн сайта" width="370" height="294" class="services-thumb">
-            </li>
-        </ul>   
-     </section>
-
-     <!-- Наша команда -->
-     <section class="command section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="command-list list">
-            <li class="command-item">
-                <img src="./images/team/img.jpg" alt="Product Designer" width="270" height="260">
-                <h3 class="command-title" >Игорь Демьяненко</h3>
-                <p class="command-text" lang="en">Product Designer</p>
-            </li>
-            <li class="command-item">
-                <img src="./images/team/img-1.jpg" alt="Frontend Developer" width="270" height="260">
-                <h3 class="command-title" >Ольга Репина</h3>
-                <p class="command-text"  lang="en">Frontend Developer</p>
-            </li>
-            <li class="command-item">
-                <img src="./images/team/img-2.jpg" alt="Marketing" width="270" height="260">
-                <h3 class="command-title" >Николай Тарасов</h3>
-                <p class="command-text" lang="en">Marketing</p>
-            </li>
-            <li class="command-item">
-                <img src="./images/team/img-3.jpg" alt="UI Designer" width="270" height="260">
-                <h3 class="command-title" >Михаил Ермаков</h3>
-                <p class="command-text" lang="en">UI Designer</p>
-            </li>
-        </ul>
-     </section>
-
-   </main>
-
-
-   <!-- Footer -->
-<footer class="footer">
-    <a href="./" class="logo footer-logo" lang="en"> <span class="logo-accent">Web</span> Studio</a>
-    <address class="address">
+      </address>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- hero image-->
+      <section class="page-hero">
+        <h1 class="page-hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="btn page-hero-btn">Order Service</button>
+      </section>
+      <!-- Section 1 Features -->
+      <section>
+        <h2 class="section-title visually-hidden">Features</h2>
         <ul class="list">
-            <li><a href="https://goo.gl/maps/2UURq9KAm3fEJeZc8" target="_blank" rel="noopener noreferrer"
-                    class="address-link link location">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@example.com" class="address-link link">info@example.com</a></li>
-            <li><a href="tel:+380991111111" class="address-link link">+38 099 111 11 11</a></li>
+          <li>
+            <h3 class="features-title">Strategy</h3>
+            <p>
+              Our goal is to identify the business problem to walk away with the perfect and
+              creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 class="features-title">Punctuality</h3>
+            <p>
+              Bring the key message to the brand's audience for the best price within the shortest
+              possible time.
+            </p>
+          </li>
+          <li>
+            <h3 class="features-title">Diligence</h3>
+            <p>
+              Research and confirm brands that present the strongest digital growth opportunities
+              and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3 class="features-title">Technologies</h3>
+            <p>
+              Design practice focused on digital experiences. We bring forth a deep passion for
+              problem-solving.
+            </p>
+          </li>
         </ul>
-    </address>
-</footer>
+      </section>
+      <!-- Section 2 What are we doing-->
+      <section>
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/section-2/section-2-img-1.jpg"
+              alt="desktop website"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/section-2/section-2-img-2.jpg"
+              alt="mobile mockup"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/section-2/section-2-img-3.jpg"
+              alt="mobile version of website"
+              width="360"
+              height="300"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- Section 3 Our Team -->
+      <section class="section-team">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/section-3/img-3.jpg"
+              alt="Product Designer"
+              width="264"
+              height="260"
+            />
+            <h3 class="team-title">Mark Guerrero</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/section-3/img-2.jpg"
+              alt="Frontend Developer"
+              width="264"
+              height="260"
+            />
+            <h3 class="team-title">Tom Ford</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/section-3/img-1.jpg" alt="Marketing" width="264" height="260" />
+            <h3 class="team-title">Camila Garcia</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/section-3/img.jpg" alt="UI Designer" width="264" height="260" />
+            <h3 class="team-title">Daniel Wilson</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <a href="./index.html" class="page-logo link page-footer-text"
+        ><span class="page-logo-accent">Web</span>Studio</a
+      >
+      <p class="page-footer-text">
+        Increase the flow of customers and sales for your business with digital marketing & growth
+        solutions.
+      </p>
+    </footer>
+  </body>
 </html>
