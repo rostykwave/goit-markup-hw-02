@@ -3,43 +3,42 @@
 :root {
   /* iris */
   --primary-brand: #4d5ae5;
+
   /* ocean */
   --pressed-state: #404bbf;
+
   /* navy blue */
   --dark: #2e2f42;
+
   /* green */
   --success: #31d0aa;
+
   /* slate */
   --text: #434455;
+
   /* light slate */
   --subtle-text: #8e8f99;
+
   /* cornflower */
   --accent: #e7e9fc;
+
   /* cloud */
   --light: #f4f4fd;
+
   /* navy blue modal */
   --modal-overlay: #2e2f42;
+
   /* grey */
   --hero-background: #2e2f42;
+
   /* white */
+  --white-text: #ffffff;
   --white-background: #ffffff;
+
   /* dairy */
   --modal-background: #fcfcfc;
-
-  --white-text: #ffffff;
-
-  /* previous mockup */
-  --secondary-text-color: #212121;
-  --accent-text-color: #2196f3;
-
-  --primary-btn-text-color: #212121;
-  --primary-btn-bgc-color: #f5f4fa;
-  --secondary-btn-text-color: #ffffff;
-  --secondary-btn-bgc-color: #2196f3;
-
-  --section-secondary-color: #f5f4fa;
-  --footer-bg-color: #2f303a;
 }
+
 /* ============= /VARIABLES ============= */
 
 /* ============= COMMON STYLES ============= */
