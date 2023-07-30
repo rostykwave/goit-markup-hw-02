@@ -78,6 +78,8 @@ body {
 /* ================ COMPONENTS ================ */
 
 .section-title {
+  text-align: center;
+
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -154,6 +156,7 @@ body {
 }
 
 .page-hero-title {
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -173,7 +176,8 @@ body {
   background-color: var(--primary-brand);
 }
 
-.page-hero-btn:hover {
+.page-hero-btn:hover,
+.page-hero-btn:focus {
   background-color: var(--pressed-state);
 }
 
@@ -202,6 +206,10 @@ body {
   background-color: var(--light);
 }
 
+.team-item {
+  background-color: var(--white-background);
+}
+
 .team-title {
   font-size: 20px;
   font-weight: 500;
@@ -210,11 +218,9 @@ body {
 
   color: var(--dark);
 }
-.command-text {
-  font-weight: 400;
+
+.team-text {
   font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
 }
 
 /* ================ /Our Team ================ */
