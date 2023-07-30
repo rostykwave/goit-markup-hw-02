@@ -234,7 +234,7 @@ body {
   letter-spacing: 0.64px;
 
   color: var(--primary-brand);
-  background-color: var(--accent);
+  background-color: var(--light);
 }
 
 .portfolio-btn-selected {
