@@ -102,11 +102,11 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 
-  color: var(--dark);
+  color: var(--primary-brand);
 }
 
 .page-logo-accent {
-  color: var(--primary-brand);
+  color: var(--dark);
 }
 
 .menu-link {
